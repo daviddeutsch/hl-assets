@@ -1,0 +1,13 @@
+.breadcrumb {
+    display: none;
+}
+
+.footer {
+    background: #323232;
+    color: #fff;
+    padding: $grid-gutter-width 0 $grid-gutter-width/2;
+
+    a {
+        color: #fff;
+    }
+}

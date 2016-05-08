@@ -1,0 +1,31 @@
+.community {
+    min-height: 280px;
+
+    background-size: cover;
+
+    margin: $grid-gutter-width 0;
+
+    h2,
+    a {
+        color: #fff;
+    }
+
+    a:hover {
+        color: #fff;
+    }
+}
+
+.sponsors {
+    background: url("/static/img/pattern.png");
+    color: #fff;
+
+    padding: $grid-gutter-width/2 0 $grid-gutter-width;
+
+    a {
+        color: #8f4e8b;
+
+        &:hover {
+            color: #b663b1;
+        }
+    }
+}
