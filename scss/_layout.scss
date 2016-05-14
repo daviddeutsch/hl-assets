@@ -19,3 +19,13 @@
 .navbar-default .navbar-brand {
     color: $brand-primary;
 }
+
+.row-flex {
+    display: flex;
+
+    > div[class*='col-'] {
+        display: flex;
+        flex: 1 1 auto;
+        flex-wrap: wrap;
+    }
+}

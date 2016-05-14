@@ -39,6 +39,16 @@ pre {
     }
 }
 
+.branding.sample {
+    pre {
+        line-height: 1.3;
+    }
+
+    h4 {
+        margin-top: 1.1em;
+    }
+}
+
 #console {
     font-family: monospace;
 }
@@ -48,7 +58,7 @@ pre {
 }
 
 .jquery-console-focus .jquery-console-cursor {
-    background:#aaa;
+    background: #f7f7f7;
     color:#eee;
     font-weight:bold;
 }
@@ -60,7 +70,7 @@ pre {
 }
 
 .jquery-console-prompt-label {
-    color: #8f4e8b;
+    color: #b764b2;
     font-weight: bold;
 }
 
@@ -69,28 +79,28 @@ pre {
 }
 
 .jquery-console-error {
-    color: #8f4e8b;
+    color: #b261ad;
     clear: left;
 }
 
 .jquery-console-value {
-    color: #2e659c;
+    color: #469ef1;
     clear: left;
     float: left;
 }
 
 .jquery-console-stdout {
-    color: #216f42;
+    color: #31a462;
     clear: left;
     float: left;
 }
 
 .jquery-console-type {
-    color: #777;
+    color: #f7f7f7;
 }
 
 .jquery-console-welcome {
-    color: #888;
+    color: #fff;
     margin-bottom: 0.5em;
 }
 
