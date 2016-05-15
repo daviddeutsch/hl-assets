@@ -29,7 +29,9 @@ h1 {
 
 .branding {
     @media (max-width: $screen-xs-max) {
-        text-align: center;
+        h4 {
+            text-align: center;
+        }
     }
 }
 

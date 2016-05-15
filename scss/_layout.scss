@@ -10,10 +10,6 @@
     a {
         color: #fff;
     }
-
-    .footer-contribute {
-        margin-left: 3em;
-    }
 }
 
 .navbar-default .navbar-brand {
@@ -22,10 +18,14 @@
 
 .row-flex {
     display: flex;
+    flex-wrap: wrap;
 
     > div[class*='col-'] {
         display: flex;
-        flex: 1 1 auto;
-        flex-wrap: wrap;
+        flex: 0 1 auto;
+
+        .thumbnail {
+            width: 100%;
+        }
     }
 }
